@@ -4,7 +4,7 @@ function Login() {
     var senha = document.getElementsByName('password')[0].value;
   
     if (usuario == "BITLAB" && senha == "BITLAB") {
-      window.location = "pagina2/login.html";
+      window.location = "login.html";
       done = 1;
     }
     if (done == 0) {
